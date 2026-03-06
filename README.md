@@ -1,11 +1,11 @@
-# Product Manual Portal
+# Prizmox Product Manual Portal
 
 Static manual portal for U.S. ecommerce sales and post-purchase support.
 
 ## Live URLs
 
-- Home: `https://nksj-px.github.io/Product-manual/`
-- Manual PDF: `https://nksj-px.github.io/Product-manual/pdfs/Prizmox_B221H00_Quick_User_Guide.pdf`
+- Home: `https://prizmox.github.io/Product-manual/`
+- Manual PDF: `https://prizmox.github.io/Product-manual/pdfs/Prizmox_B221H00_Quick_User_Guide.pdf`
 
 ## Brand and Contact
 
@@ -21,19 +21,27 @@ Product-manual/
 ├─ index.html
 ├─ pdfs/
 │  └─ Prizmox_B221H00_Quick_User_Guide.pdf
+├─ .gitignore
 └─ README.md
 ```
 
-## Deploy with GitHub Pages
+## GitHub Pages Setup
 
 1. Open repository `Settings`.
-2. Go to `Pages`.
+2. Open `Pages`.
 3. Set `Source` to `Deploy from a branch`.
-4. Choose branch `main` and folder `/ (root)`.
+4. Select branch `main` and folder `/ (root)`.
 5. Save and wait for deployment.
 
-## Add More Manuals
+## Maintenance
 
-1. Put new PDF files in `pdfs/`.
-2. Add corresponding links in `index.html`.
+### Add a new manual PDF
+
+1. Put the PDF file into `pdfs/`.
+2. Add a new manual card/link in `index.html`.
 3. Commit and push to `main`.
+
+### Update contact or store links
+
+1. Edit contact links in `index.html`.
+2. Keep this `README.md` in sync.
